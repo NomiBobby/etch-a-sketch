@@ -31,7 +31,7 @@ function removeGrid(){
 
 var slider = document.getElementById("myRange");
 var output = document.getElementById("gridSize");
-output.innerHTML = `${slider.value}x${slider.value}`; // Display the default slider value
+output.innerHTML = `${slider.value}x${slider.value} Grid`; // Display the default slider value
 
 let gridSize = slider.value;
 createGrid(gridSize);
